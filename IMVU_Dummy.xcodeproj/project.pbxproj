@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B653F1F62704AF5800619570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F1F52704AF5800619570 /* AppDelegate.swift */; };
+		B653F1F82704AF5800619570 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F1F72704AF5800619570 /* SceneDelegate.swift */; };
+		B653F1FA2704AF5800619570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F1F92704AF5800619570 /* ViewController.swift */; };
+		B653F1FD2704AF5800619570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B653F1FB2704AF5800619570 /* Main.storyboard */; };
+		B653F1FF2704AF5900619570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B653F1FE2704AF5900619570 /* Assets.xcassets */; };
+		B653F2022704AF5900619570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B653F2002704AF5900619570 /* LaunchScreen.storyboard */; };
+		B653F20D2704AF5900619570 /* IMVU_DummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F20C2704AF5900619570 /* IMVU_DummyTests.swift */; };
+		B653F2182704AF5900619570 /* IMVU_DummyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F2172704AF5900619570 /* IMVU_DummyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B653F2092704AF5900619570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B653F1EA2704AF5800619570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B653F1F12704AF5800619570;
+			remoteInfo = IMVU_Dummy;
+		};
+		B653F2142704AF5900619570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B653F1EA2704AF5800619570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B653F1F12704AF5800619570;
+			remoteInfo = IMVU_Dummy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B653F1F22704AF5800619570 /* IMVU_Dummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMVU_Dummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B653F1F52704AF5800619570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B653F1F72704AF5800619570 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B653F1F92704AF5800619570 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B653F1FC2704AF5800619570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B653F1FE2704AF5900619570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B653F2012704AF5900619570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B653F2032704AF5900619570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B653F2082704AF5900619570 /* IMVU_DummyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMVU_DummyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B653F20C2704AF5900619570 /* IMVU_DummyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMVU_DummyTests.swift; sourceTree = "<group>"; };
+		B653F20E2704AF5900619570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B653F2132704AF5900619570 /* IMVU_DummyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMVU_DummyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B653F2172704AF5900619570 /* IMVU_DummyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMVU_DummyUITests.swift; sourceTree = "<group>"; };
+		B653F2192704AF5900619570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B653F1EF2704AF5800619570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B653F2052704AF5900619570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B653F2102704AF5900619570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B653F1E92704AF5800619570 = {
+			isa = PBXGroup;
+			children = (
+				B653F1F42704AF5800619570 /* IMVU_Dummy */,
+				B653F20B2704AF5900619570 /* IMVU_DummyTests */,
+				B653F2162704AF5900619570 /* IMVU_DummyUITests */,
+				B653F1F32704AF5800619570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B653F1F32704AF5800619570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B653F1F22704AF5800619570 /* IMVU_Dummy.app */,
+				B653F2082704AF5900619570 /* IMVU_DummyTests.xctest */,
+				B653F2132704AF5900619570 /* IMVU_DummyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B653F1F42704AF5800619570 /* IMVU_Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				B653F1F52704AF5800619570 /* AppDelegate.swift */,
+				B653F1F72704AF5800619570 /* SceneDelegate.swift */,
+				B653F1F92704AF5800619570 /* ViewController.swift */,
+				B653F1FB2704AF5800619570 /* Main.storyboard */,
+				B653F1FE2704AF5900619570 /* Assets.xcassets */,
+				B653F2002704AF5900619570 /* LaunchScreen.storyboard */,
+				B653F2032704AF5900619570 /* Info.plist */,
+			);
+			path = IMVU_Dummy;
+			sourceTree = "<group>";
+		};
+		B653F20B2704AF5900619570 /* IMVU_DummyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B653F20C2704AF5900619570 /* IMVU_DummyTests.swift */,
+				B653F20E2704AF5900619570 /* Info.plist */,
+			);
+			path = IMVU_DummyTests;
+			sourceTree = "<group>";
+		};
+		B653F2162704AF5900619570 /* IMVU_DummyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B653F2172704AF5900619570 /* IMVU_DummyUITests.swift */,
+				B653F2192704AF5900619570 /* Info.plist */,
+			);
+			path = IMVU_DummyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B653F1F12704AF5800619570 /* IMVU_Dummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B653F21C2704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_Dummy" */;
+			buildPhases = (
+				B653F1EE2704AF5800619570 /* Sources */,
+				B653F1EF2704AF5800619570 /* Frameworks */,
+				B653F1F02704AF5800619570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMVU_Dummy;
+			productName = IMVU_Dummy;
+			productReference = B653F1F22704AF5800619570 /* IMVU_Dummy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B653F2072704AF5900619570 /* IMVU_DummyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B653F21F2704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_DummyTests" */;
+			buildPhases = (
+				B653F2042704AF5900619570 /* Sources */,
+				B653F2052704AF5900619570 /* Frameworks */,
+				B653F2062704AF5900619570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B653F20A2704AF5900619570 /* PBXTargetDependency */,
+			);
+			name = IMVU_DummyTests;
+			productName = IMVU_DummyTests;
+			productReference = B653F2082704AF5900619570 /* IMVU_DummyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B653F2122704AF5900619570 /* IMVU_DummyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B653F2222704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_DummyUITests" */;
+			buildPhases = (
+				B653F20F2704AF5900619570 /* Sources */,
+				B653F2102704AF5900619570 /* Frameworks */,
+				B653F2112704AF5900619570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B653F2152704AF5900619570 /* PBXTargetDependency */,
+			);
+			name = IMVU_DummyUITests;
+			productName = IMVU_DummyUITests;
+			productReference = B653F2132704AF5900619570 /* IMVU_DummyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B653F1EA2704AF5800619570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B653F1F12704AF5800619570 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					B653F2072704AF5900619570 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B653F1F12704AF5800619570;
+					};
+					B653F2122704AF5900619570 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B653F1F12704AF5800619570;
+					};
+				};
+			};
+			buildConfigurationList = B653F1ED2704AF5800619570 /* Build configuration list for PBXProject "IMVU_Dummy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B653F1E92704AF5800619570;
+			productRefGroup = B653F1F32704AF5800619570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B653F1F12704AF5800619570 /* IMVU_Dummy */,
+				B653F2072704AF5900619570 /* IMVU_DummyTests */,
+				B653F2122704AF5900619570 /* IMVU_DummyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B653F1F02704AF5800619570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B653F2022704AF5900619570 /* LaunchScreen.storyboard in Resources */,
+				B653F1FF2704AF5900619570 /* Assets.xcassets in Resources */,
+				B653F1FD2704AF5800619570 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B653F2062704AF5900619570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B653F2112704AF5900619570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B653F1EE2704AF5800619570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B653F1FA2704AF5800619570 /* ViewController.swift in Sources */,
+				B653F1F62704AF5800619570 /* AppDelegate.swift in Sources */,
+				B653F1F82704AF5800619570 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B653F2042704AF5900619570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B653F20D2704AF5900619570 /* IMVU_DummyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B653F20F2704AF5900619570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B653F2182704AF5900619570 /* IMVU_DummyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B653F20A2704AF5900619570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B653F1F12704AF5800619570 /* IMVU_Dummy */;
+			targetProxy = B653F2092704AF5900619570 /* PBXContainerItemProxy */;
+		};
+		B653F2152704AF5900619570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B653F1F12704AF5800619570 /* IMVU_Dummy */;
+			targetProxy = B653F2142704AF5900619570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B653F1FB2704AF5800619570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B653F1FC2704AF5800619570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B653F2002704AF5900619570 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B653F2012704AF5900619570 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B653F21A2704AF5900619570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B653F21B2704AF5900619570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B653F21D2704AF5900619570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE5L9994VP;
+				INFOPLIST_FILE = IMVU_Dummy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.IMVU-Dummy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B653F21E2704AF5900619570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE5L9994VP;
+				INFOPLIST_FILE = IMVU_Dummy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.IMVU-Dummy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B653F2202704AF5900619570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE5L9994VP;
+				INFOPLIST_FILE = IMVU_DummyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.IMVU-DummyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMVU_Dummy.app/IMVU_Dummy";
+			};
+			name = Debug;
+		};
+		B653F2212704AF5900619570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE5L9994VP;
+				INFOPLIST_FILE = IMVU_DummyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.IMVU-DummyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMVU_Dummy.app/IMVU_Dummy";
+			};
+			name = Release;
+		};
+		B653F2232704AF5900619570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE5L9994VP;
+				INFOPLIST_FILE = IMVU_DummyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.IMVU-DummyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMVU_Dummy;
+			};
+			name = Debug;
+		};
+		B653F2242704AF5900619570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XE5L9994VP;
+				INFOPLIST_FILE = IMVU_DummyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test.IMVU-DummyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IMVU_Dummy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B653F1ED2704AF5800619570 /* Build configuration list for PBXProject "IMVU_Dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B653F21A2704AF5900619570 /* Debug */,
+				B653F21B2704AF5900619570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B653F21C2704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_Dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B653F21D2704AF5900619570 /* Debug */,
+				B653F21E2704AF5900619570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B653F21F2704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_DummyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B653F2202704AF5900619570 /* Debug */,
+				B653F2212704AF5900619570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B653F2222704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_DummyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B653F2232704AF5900619570 /* Debug */,
+				B653F2242704AF5900619570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B653F1EA2704AF5800619570 /* Project object */;
+}
