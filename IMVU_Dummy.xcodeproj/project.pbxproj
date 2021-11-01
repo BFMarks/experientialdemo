@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		254BD74C790D2DD36B8EF543 /* Pods_IMVU_Dummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002CF9F8EA2AACB4E0D8C96F /* Pods_IMVU_Dummy.framework */; };
+		2BA9B60853BD40D9B1B8C9EE /* Pods_IMVU_Dummy_IMVU_DummyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3F897AC14B01595930B971 /* Pods_IMVU_Dummy_IMVU_DummyUITests.framework */; };
+		772A88BDC1148333B359C6AA /* Pods_IMVU_DummyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682FEABE9A4EFC95FDFE35E0 /* Pods_IMVU_DummyTests.framework */; };
 		B653F1F62704AF5800619570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F1F52704AF5800619570 /* AppDelegate.swift */; };
 		B653F1F82704AF5800619570 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F1F72704AF5800619570 /* SceneDelegate.swift */; };
 		B653F1FA2704AF5800619570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F1F92704AF5800619570 /* ViewController.swift */; };
@@ -15,6 +18,11 @@
 		B653F2022704AF5900619570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B653F2002704AF5900619570 /* LaunchScreen.storyboard */; };
 		B653F20D2704AF5900619570 /* IMVU_DummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F20C2704AF5900619570 /* IMVU_DummyTests.swift */; };
 		B653F2182704AF5900619570 /* IMVU_DummyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B653F2172704AF5900619570 /* IMVU_DummyUITests.swift */; };
+		B6C1421D2704B63600DEC2A2 /* IterableSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B6C1421C2704B63600DEC2A2 /* IterableSDK */; };
+		B6C1421F2704B63600DEC2A2 /* IterableAppExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = B6C1421E2704B63600DEC2A2 /* IterableAppExtensions */; };
+		B6C1422E2704C00400DEC2A2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B6C1422D2704C00400DEC2A2 /* Alamofire */; };
+		B6C142342704C27000DEC2A2 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B6C142332704C27000DEC2A2 /* SwiftyJSON */; };
+		B6D211582710A0D600897C37 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = B6D211572710A0D600897C37 /* Mixpanel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002CF9F8EA2AACB4E0D8C96F /* Pods_IMVU_Dummy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMVU_Dummy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DFADDE69342585B84BC740 /* Pods-IMVU_Dummy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMVU_Dummy.debug.xcconfig"; path = "Target Support Files/Pods-IMVU_Dummy/Pods-IMVU_Dummy.debug.xcconfig"; sourceTree = "<group>"; };
+		5D273B93FB4C7841AE8E6EB2 /* Pods-IMVU_DummyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMVU_DummyTests.debug.xcconfig"; path = "Target Support Files/Pods-IMVU_DummyTests/Pods-IMVU_DummyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		643E3342441E57FB55507702 /* Pods-IMVU_Dummy-IMVU_DummyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMVU_Dummy-IMVU_DummyUITests.release.xcconfig"; path = "Target Support Files/Pods-IMVU_Dummy-IMVU_DummyUITests/Pods-IMVU_Dummy-IMVU_DummyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		682FEABE9A4EFC95FDFE35E0 /* Pods_IMVU_DummyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMVU_DummyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3F897AC14B01595930B971 /* Pods_IMVU_Dummy_IMVU_DummyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMVU_Dummy_IMVU_DummyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBB84D09F6A1B7F1B39D0E5 /* Pods-IMVU_Dummy-IMVU_DummyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMVU_Dummy-IMVU_DummyUITests.debug.xcconfig"; path = "Target Support Files/Pods-IMVU_Dummy-IMVU_DummyUITests/Pods-IMVU_Dummy-IMVU_DummyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B653F1F22704AF5800619570 /* IMVU_Dummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMVU_Dummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B653F1F52704AF5800619570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B653F1F72704AF5800619570 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,8 @@
 		B653F2132704AF5900619570 /* IMVU_DummyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMVU_DummyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B653F2172704AF5900619570 /* IMVU_DummyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMVU_DummyUITests.swift; sourceTree = "<group>"; };
 		B653F2192704AF5900619570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82AA474634968CFE5CED584 /* Pods-IMVU_Dummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMVU_Dummy.release.xcconfig"; path = "Target Support Files/Pods-IMVU_Dummy/Pods-IMVU_Dummy.release.xcconfig"; sourceTree = "<group>"; };
+		E052AC1C3D27F4BBBFB298B8 /* Pods-IMVU_DummyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMVU_DummyTests.release.xcconfig"; path = "Target Support Files/Pods-IMVU_DummyTests/Pods-IMVU_DummyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D211582710A0D600897C37 /* Mixpanel in Frameworks */,
+				B6C1421F2704B63600DEC2A2 /* IterableAppExtensions in Frameworks */,
+				B6C1422E2704C00400DEC2A2 /* Alamofire in Frameworks */,
+				254BD74C790D2DD36B8EF543 /* Pods_IMVU_Dummy.framework in Frameworks */,
+				B6C142342704C27000DEC2A2 /* SwiftyJSON in Frameworks */,
+				B6C1421D2704B63600DEC2A2 /* IterableSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772A88BDC1148333B359C6AA /* Pods_IMVU_DummyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA9B60853BD40D9B1B8C9EE /* Pods_IMVU_Dummy_IMVU_DummyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EA12BADB811F82E354534D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58DFADDE69342585B84BC740 /* Pods-IMVU_Dummy.debug.xcconfig */,
+				B82AA474634968CFE5CED584 /* Pods-IMVU_Dummy.release.xcconfig */,
+				AEBB84D09F6A1B7F1B39D0E5 /* Pods-IMVU_Dummy-IMVU_DummyUITests.debug.xcconfig */,
+				643E3342441E57FB55507702 /* Pods-IMVU_Dummy-IMVU_DummyUITests.release.xcconfig */,
+				5D273B93FB4C7841AE8E6EB2 /* Pods-IMVU_DummyTests.debug.xcconfig */,
+				E052AC1C3D27F4BBBFB298B8 /* Pods-IMVU_DummyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B653F1E92704AF5800619570 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				B653F20B2704AF5900619570 /* IMVU_DummyTests */,
 				B653F2162704AF5900619570 /* IMVU_DummyUITests */,
 				B653F1F32704AF5800619570 /* Products */,
+				6EA12BADB811F82E354534D1 /* Pods */,
+				D6FCC8FF2F5DAE8D317E26A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +168,16 @@
 			path = IMVU_DummyUITests;
 			sourceTree = "<group>";
 		};
+		D6FCC8FF2F5DAE8D317E26A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002CF9F8EA2AACB4E0D8C96F /* Pods_IMVU_Dummy.framework */,
+				9E3F897AC14B01595930B971 /* Pods_IMVU_Dummy_IMVU_DummyUITests.framework */,
+				682FEABE9A4EFC95FDFE35E0 /* Pods_IMVU_DummyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B653F21C2704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_Dummy" */;
 			buildPhases = (
+				D9B8E6F2152CA1DDFE486210 /* [CP] Check Pods Manifest.lock */,
 				B653F1EE2704AF5800619570 /* Sources */,
 				B653F1EF2704AF5800619570 /* Frameworks */,
 				B653F1F02704AF5800619570 /* Resources */,
@@ -144,6 +195,13 @@
 			dependencies = (
 			);
 			name = IMVU_Dummy;
+			packageProductDependencies = (
+				B6C1421C2704B63600DEC2A2 /* IterableSDK */,
+				B6C1421E2704B63600DEC2A2 /* IterableAppExtensions */,
+				B6C1422D2704C00400DEC2A2 /* Alamofire */,
+				B6C142332704C27000DEC2A2 /* SwiftyJSON */,
+				B6D211572710A0D600897C37 /* Mixpanel */,
+			);
 			productName = IMVU_Dummy;
 			productReference = B653F1F22704AF5800619570 /* IMVU_Dummy.app */;
 			productType = "com.apple.product-type.application";
@@ -152,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B653F21F2704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_DummyTests" */;
 			buildPhases = (
+				5BEF37CF19F7349B8C4A825A /* [CP] Check Pods Manifest.lock */,
 				B653F2042704AF5900619570 /* Sources */,
 				B653F2052704AF5900619570 /* Frameworks */,
 				B653F2062704AF5900619570 /* Resources */,
+				9594FBE2F7E414391F015179 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B653F2222704AF5900619570 /* Build configuration list for PBXNativeTarget "IMVU_DummyUITests" */;
 			buildPhases = (
+				A9960584C2590CE733C8775D /* [CP] Check Pods Manifest.lock */,
 				B653F20F2704AF5900619570 /* Sources */,
 				B653F2102704AF5900619570 /* Frameworks */,
 				B653F2112704AF5900619570 /* Resources */,
@@ -215,6 +276,12 @@
 				Base,
 			);
 			mainGroup = B653F1E92704AF5800619570;
+			packageReferences = (
+				B6C1421B2704B63600DEC2A2 /* XCRemoteSwiftPackageReference "swift-sdk" */,
+				B6C1422C2704C00400DEC2A2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B6C142322704C27000DEC2A2 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				B6D211562710A0D600897C37 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+			);
 			productRefGroup = B653F1F32704AF5800619570 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,6 +319,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BEF37CF19F7349B8C4A825A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMVU_DummyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9594FBE2F7E414391F015179 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMVU_DummyTests/Pods-IMVU_DummyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMVU_DummyTests/Pods-IMVU_DummyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMVU_DummyTests/Pods-IMVU_DummyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9960584C2590CE733C8775D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMVU_Dummy-IMVU_DummyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B8E6F2152CA1DDFE486210 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMVU_Dummy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B653F1EE2704AF5800619570 /* Sources */ = {
@@ -433,6 +586,7 @@
 		};
 		B653F21D2704AF5900619570 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DFADDE69342585B84BC740 /* Pods-IMVU_Dummy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +606,7 @@
 		};
 		B653F21E2704AF5900619570 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82AA474634968CFE5CED584 /* Pods-IMVU_Dummy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +626,7 @@
 		};
 		B653F2202704AF5900619570 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D273B93FB4C7841AE8E6EB2 /* Pods-IMVU_DummyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +649,7 @@
 		};
 		B653F2212704AF5900619570 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E052AC1C3D27F4BBBFB298B8 /* Pods-IMVU_DummyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +672,7 @@
 		};
 		B653F2232704AF5900619570 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBB84D09F6A1B7F1B39D0E5 /* Pods-IMVU_Dummy-IMVU_DummyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +693,7 @@
 		};
 		B653F2242704AF5900619570 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643E3342441E57FB55507702 /* Pods-IMVU_Dummy-IMVU_DummyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +752,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6C1421B2704B63600DEC2A2 /* XCRemoteSwiftPackageReference "swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iterable/swift-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.3;
+			};
+		};
+		B6C1422C2704C00400DEC2A2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+		B6C142322704C27000DEC2A2 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		B6D211562710A0D600897C37 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6C1421C2704B63600DEC2A2 /* IterableSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6C1421B2704B63600DEC2A2 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = IterableSDK;
+		};
+		B6C1421E2704B63600DEC2A2 /* IterableAppExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6C1421B2704B63600DEC2A2 /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = IterableAppExtensions;
+		};
+		B6C1422D2704C00400DEC2A2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6C1422C2704C00400DEC2A2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B6C142332704C27000DEC2A2 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6C142322704C27000DEC2A2 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		B6D211572710A0D600897C37 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6D211562710A0D600897C37 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B653F1EA2704AF5800619570 /* Project object */;
 }

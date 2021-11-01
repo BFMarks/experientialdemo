@@ -1,0 +1,6 @@
+framework module Pods_IMVU_DummyTests {
+  umbrella header "Pods-IMVU_DummyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

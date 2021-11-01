@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Iterable-iOS-SDK (6.2.19)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - Iterable-iOS-SDK
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Iterable-iOS-SDK
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Iterable-iOS-SDK: b7943032933aef647ef01dcb76d303cb476b69c8
+
+PODFILE CHECKSUM: 2de268f0a82e2b41fcd2950b9db733776ff0e2e5
+
+COCOAPODS: 1.10.1
